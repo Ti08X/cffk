@@ -11,9 +11,9 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "cffk_db",
+      "database_name": "cffk_manual_db",
+	  "database_id": "c6b641a2-7b4e-428e-9e5e-bc4b8bca1323",
       "migrations_dir": "database/migrations",
-      // "database_id": "6ccaa772-9379-494a-8548-7a1bb74e30da" // 一键部署必须注释/
     }
   ],
   "compatibility_flags": [
@@ -28,3 +28,6 @@
 		"head_sampling_rate": 0.1
 	},
 }
+"vars": {
+  "ADMIN_PATH": "admin-zgai"
+},
